@@ -1,6 +1,6 @@
 START WORDPRESS
 run `docker-compose up -d` to start Wordpress on port 8000 ( http://localost:8000 or http://YOURIP:8000 )
-WP file will be placed in ./site directory
+WP files will be placed in ./site directory
 To edit a preexistent WP site copy WP files in ./site directory EXCEPT wp-copnfig.php
 
 --------
