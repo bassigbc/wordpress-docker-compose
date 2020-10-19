@@ -21,9 +21,9 @@ DB
 docker exec mysql-db /usr/bin/mysqldump -uwordpress -pwordpress wordpress > db.sql
 
 #restore
-cat db.sql | docker exec mysql-db mysqldump -uwordpress -pwordpress wordpress
+cat db.sql | docker exec mysql-db mysqldump -uroot -psomewordpress wordpress
 
 #command line client
-docker exec -ti mysql-db mysql -uwordpress -pwordpress 
+docker exec -ti mysql-db mysql -uroot -psomewordpress 
 
 
