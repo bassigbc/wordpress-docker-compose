@@ -1,3 +1,8 @@
+CONFIGURATION
+Modify file uploads.ini to configure PHP parameters
+
+--------
+
 START WORDPRESS
 run `docker-compose up -d` to start Wordpress on port 8000 ( http://localost:8000 or http://YOURIP:8000 )
 WP files will be placed in ./site directory
