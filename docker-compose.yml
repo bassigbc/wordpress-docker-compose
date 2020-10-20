@@ -3,7 +3,7 @@ version: '3.3'
 services:
   db:
     image: mysql:5.7
-    container_name: mysql-db-2
+    container_name: mysql-db
     volumes:
       - db_data:/var/lib/mysql
     restart: always
@@ -17,7 +17,7 @@ services:
     depends_on:
       - db
     image: wordpress:latest
-    container_name: wp-devel-site-2
+    container_name: wp-devel-site
     ports:
       - "8001:80"
     restart: always
